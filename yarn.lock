@@ -114,10 +114,10 @@ astral-regex@^1.0.0:
   resolved "https://registry.npm.taobao.org/astral-regex/download/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
   integrity sha1-bIw/uCfdQ+45GPJ7gngqt2WKb9k=
 
-autharmor-node-express@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.npmjs.org/autharmor-node-express/-/autharmor-node-express-0.2.2.tgz#2c4d411145820357d7bd6eb5262ff3811aab3ad7"
-  integrity sha512-PEdgqQXRA5xtA6bRAeTEwM2oArrr5VIv/vudtKIQCHXR1XcV/CP4kVm/KQPJeLF6bRfcJ1Dath6lyxSyEuoCgA==
+autharmor-node-express@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.npmjs.org/autharmor-node-express/-/autharmor-node-express-0.2.3.tgz#5d27b7f1d1f9c9ac57b604113e113e19220bac62"
+  integrity sha512-IRfniboFhE82P7SNqWmgo8TI4F2vFgBdWNWpyMQ6hpgKD+nu38rfGvRcGJ/DHVYI9lWhjvfOE+l88+4r5PndBA==
   dependencies:
     axios "^0.19.2"
     querystring "^0.2.0"
