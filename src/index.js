@@ -41,7 +41,10 @@ app.use(
 
 app.use(
   Cors({
-    origin: ["http://localhost:3000"],
+    origin: [
+      "http://localhost:3000",
+      "https://autharmor-sample-react.herokuapp.com"
+    ],
     credentials: true
   })
 );
