@@ -8,7 +8,7 @@
     "start": "npx nodemon ./src/index.js"
   },
   "dependencies": {
-    "autharmor-node-express": "^0.1.1",
+    "autharmor-node-express": "^0.2.0",
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "connect-mongodb-session": "^2.3.1",
@@ -19,7 +19,6 @@
     "helmet": "^3.22.0",
     "mongoose": "^5.9.10",
     "passport": "^0.4.1",
-    "passport-autharmor": "^0.2.0",
     "querystring": "^0.2.0"
   },
   "devDependencies": {
