@@ -19,7 +19,8 @@
     "helmet": "^3.22.0",
     "mongoose": "^5.9.10",
     "passport": "^0.4.1",
-    "querystring": "^0.2.0"
+    "querystring": "^0.2.0",
+    "uuid": "^8.0.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0"
