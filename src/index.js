@@ -49,6 +49,7 @@ app.use(
   })
 );
 
+// Setup AuthArmor Express SDK (this is needed for )
 const authArmorSDK = AuthArmor(app, {
   clientId: process.env.AUTHARMOR_CLIENT_ID,
   clientSecret: process.env.AUTHARMOR_CLIENT_SECRET,
