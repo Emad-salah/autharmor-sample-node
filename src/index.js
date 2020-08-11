@@ -86,7 +86,7 @@ authArmorSDK.validate("authRequest", async body => {
   console.log(user);
 
   return {
-    profileId: user.autharmor.profileId,
+    nickname: user.autharmor.nickname,
     metadata: { username: user.username.toLowerCase() }
   };
 });
@@ -94,7 +94,7 @@ authArmorSDK.validate("authRequest", async body => {
 authArmorSDK.on("inviteGenerated", async data => {
   console.log(data);
   await Invite.create({
-    profileId: data.invite.auth_profile_id,
+    nickname: data.invite.nickname,
     username: data.username.toLowerCase(),
     expiresAt: data.invite.date_expires
   });
@@ -103,11 +103,11 @@ authArmorSDK.on("inviteGenerated", async data => {
 
 authArmorSDK.on("inviteConfirmSuccess", async (data, session) => {
   console.log("Invite confirm success!", data);
-  const invite = await Invite.findOne({ profileId: data.profileId });
+  const invite = await Invite.findOne({ nickname: data.nickname });
   const user = await User.create({
     username: invite.username,
     autharmor: {
-      profileId: invite.profileId
+      nickname: invite.nickname
     }
   });
   session.save({

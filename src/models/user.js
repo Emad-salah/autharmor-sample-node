@@ -5,7 +5,7 @@ const User = new Mongoose.Schema(
     username: { type: String, unique: true, required: true },
     password: { type: String, select: false },
     autharmor: {
-      profileId: String
+      nickname: String
     },
     accountType: {
       type: String,

@@ -3,7 +3,7 @@ const Mongoose = require("mongoose");
 const Invite = new Mongoose.Schema(
   {
     username: { type: String, required: true },
-    profileId: { type: String, unique: true, required: true },
+    nickname: { type: String, unique: true, required: true },
     expiresAt: Date
   },
   {
