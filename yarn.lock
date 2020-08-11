@@ -142,19 +142,19 @@ astral-regex@^1.0.0:
   resolved "https://registry.npm.taobao.org/astral-regex/download/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
   integrity sha1-bIw/uCfdQ+45GPJ7gngqt2WKb9k=
 
-autharmor-node-express@^0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/autharmor-node-express/-/autharmor-node-express-0.2.5.tgz#dc08f133e00e530341f5848a9315eaf31d9a3ed8"
-  integrity sha512-kaaTWBIRHRpIRiuABYFFngkvKViziTa8cvaRewFEhfvnOntidl6Dyk+Vx5fiPi4PZYi6FEJVFF94Owr8wq24kw==
+autharmor-node-express@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/autharmor-node-express/-/autharmor-node-express-0.3.0.tgz#8e07755818eb7df1eec7e57bf73c8fcf68e9d85e"
+  integrity sha512-fzyy8ycrrSp/pZXzOy/ZUag2rm4lvJDCFuFhuW+BvpPPQjciZ+mI+YPuTAetxYrHQwSPuBvqKy7/Oi0n3Dme6w==
   dependencies:
     axios "^0.19.2"
     querystring "^0.2.0"
     uuid "^8.0.0"
 
-autharmor-node-sdk@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/autharmor-node-sdk/-/autharmor-node-sdk-1.0.0.tgz#23276ed7cf24af41d99ac47e7c14eea9fcb204d1"
-  integrity sha512-OvbjnPsH0HtNObhIFdhw7l+9gfpbWVxRRBdsvrAR+/wfEMoXgjvVzw9YfJCdAfDJpvFcIHpi47CXxIdX7etAMg==
+autharmor-node-sdk@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/autharmor-node-sdk/-/autharmor-node-sdk-1.0.1.tgz#83944912999ad88347eea75a4b5d62a8b811f81a"
+  integrity sha512-mD0/08A08koQUaC75Qn+mCdJIHypW4nlZNHAikkKthZz2jPpVniL2HKj0GWklC1VJC3+BZ2MHlNA7l3BRo1vUA==
   dependencies:
     axios "^0.19.0"
 
