@@ -8,7 +8,7 @@
     "start": "npx nodemon ./src/index.js"
   },
   "dependencies": {
-    "autharmor-node-express": "^0.3.0",
+    "autharmor-node-express": "^0.4.0",
     "autharmor-node-sdk": "^1.0.1",
     "axios": "^0.19.2",
     "bcrypt": "^4.0.1",
