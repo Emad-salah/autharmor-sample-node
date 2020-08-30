@@ -61,7 +61,7 @@ const authArmorSDK = AuthArmor(app, {
 });
 
 authArmorSDK.validate("inviteRequest", async body => {
-  const user = await User.findOne({ username: body.username.toLowerCase() });
+  const user = await User.findOne({ username: body.nickname.toLowerCase() });
 
   if (user) {
     throw {
@@ -74,7 +74,7 @@ authArmorSDK.validate("inviteRequest", async body => {
 });
 
 authArmorSDK.validate("authRequest", async body => {
-  const user = await User.findOne({ username: body.username.toLowerCase() });
+  const user = await User.findOne({ username: body.nickname.toLowerCase() });
 
   if (!user) {
     throw {
@@ -117,7 +117,7 @@ authArmorSDK.on("inviteConfirmSuccess", async (data, session) => {
 });
 
 authArmorSDK.on("authSuccess", async (data, session) => {
-  const user = await User.findOne({ username: data.metadata.username });
+  const user = await User.findOne({ username: data.metadata.nickname });
 
   session.save({
     username: user.username,
