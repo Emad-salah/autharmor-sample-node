@@ -95,7 +95,7 @@ authArmorSDK.on("inviteGenerated", async data => {
   console.log(data);
   await Invite.create({
     nickname: data.invite.nickname,
-    username: data.username.toLowerCase(),
+    username: data.nickname.toLowerCase(),
     expiresAt: data.invite.date_expires
   });
   return;
