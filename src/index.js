@@ -19,12 +19,6 @@ const AuthArmor = new AuthArmorSDK({
   secret: process.env.SECRET // Specify a Secret for the tokens that will be generated through the SDK
 });
 
-app.use(
-  Cors({
-    origin: "https://autharmor-demo.vercel.app"
-  })
-);
-
 // Mount the SDK routes under "/auth/autharmor" (which is the default path prefix specified in the client-side SDK)
 app.use(
   "/auth/autharmor",
@@ -37,6 +31,13 @@ app.use(
 
 // (Optional) Adds a middleware that allows you to access the user's nickname through `res.locals.user.nickname`
 app.use(AuthArmor.middleware);
+
+app.use(
+  Cors({
+    origin: ["http://localhost:3000", "https://autharmor-demo.vercel.app"],
+    credentials: true
+  })
+);
 
 console.log(`🎉 Server is up and running at port ${process.env.PORT}!`);
 
