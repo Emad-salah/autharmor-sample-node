@@ -21,7 +21,7 @@ const AuthArmor = new AuthArmorSDK({
 
 app.use(
   Cors({
-    origin: (requestOrigin, callback) => callback(null, requestOrigin)
+    origin: "https://autharmor-demo.vercel.app"
   })
 );
 
