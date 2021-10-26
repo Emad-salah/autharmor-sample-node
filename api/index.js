@@ -28,7 +28,7 @@ app.use(
 
 // Mount the SDK routes under "/auth/autharmor" (which is the default path prefix specified in the client-side SDK)
 app.use(
-  "/api/auth/autharmor",
+  "/auth/autharmor",
   AuthArmor.routes({
     onAuthSuccess: data => {
       console.log(data);
