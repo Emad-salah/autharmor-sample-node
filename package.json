@@ -1,7 +1,7 @@
 {
   "name": "autharmor-sample-node",
   "version": "2.0.0-alpha.1",
-  "main": "dist/index.js",
+  "main": "api/index.js",
   "license": "MIT",
   "homepage": "https://github.com/AuthArmor/autharmor-sample-node#readme",
   "repository": {
@@ -9,8 +9,8 @@
     "url": "https://github.com/AuthArmor/autharmor-sample-node.git"
   },
   "scripts": {
-    "start": "node ./src/index.js",
-    "start:watch": "nodemon ./src/index.js --config ./nodemon.json"
+    "start": "node ./api/index.js",
+    "start:watch": "nodemon ./api/index.js --config ./nodemon.json"
   },
   "devDependencies": {
     "@types/ws": "^7.4.6",
