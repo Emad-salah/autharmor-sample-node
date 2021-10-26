@@ -82,9 +82,9 @@
   integrity sha512-YATxVxgRqNH6nHEIsvg6k2Boc1JHI9ZbH5iWFFv/MTkchz3b1ieGDa5T0a9RznNdI0KhVbdbWSN+KWWrQZRxTw==
 
 "@types/node@*":
-  version "16.11.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.0.tgz#4b95f2327bacd1ef8f08d8ceda193039c5d7f52e"
-  integrity sha512-8MLkBIYQMuhRBQzGN9875bYsOhPnf/0rgXGo66S2FemHkhbn9qtsz9ywV1iCG+vbjigE4WUNVvw37Dx+L0qsPg==
+  version "16.11.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.6.tgz#6bef7a2a0ad684cf6e90fcfe31cecabd9ce0a3ae"
+  integrity sha512-ua7PgUoeQFjmWPcoo9khiPum3Pd60k4/2ZGXt18sm2Slk0W0xZTqt5Y0Ny1NyBiN1EVQ/+FaF9NcY4Qe6rwk5w==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -232,10 +232,10 @@ astral-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
   integrity sha512-+Ryf6g3BKoRc7jfp7ad8tM4TtMiaWvbF/1/sQcZPkkS7ag3D5nMBCe2UfOTONtAkaG0tO0ij3C5Lwmf1EiyjHg==
 
-autharmor-node-sdk@^2.0.0-alpha.25:
-  version "2.0.0-alpha.25"
-  resolved "https://registry.yarnpkg.com/autharmor-node-sdk/-/autharmor-node-sdk-2.0.0-alpha.25.tgz#40068f980c760921c6b3316b542423d37670023b"
-  integrity sha512-fsfn3u12SklncCAzfj4+T3zl4SAHLl6GLTSRGchOeGAjzvLyymzENiYIElihoIlSWVyCtIdltgL6fB0btlNZuQ==
+autharmor-node-sdk@^2.0.0-alpha.26:
+  version "2.0.0-alpha.26"
+  resolved "https://registry.yarnpkg.com/autharmor-node-sdk/-/autharmor-node-sdk-2.0.0-alpha.26.tgz#8ea0735393166319576fe04abf121be6e9c8d22b"
+  integrity sha512-3UZrvSctPd6uZiID6PcavgyM+qdPcIHYZYik5rWf/xk7GzjPDPwv5hg2MOJVfs30/dHRGrm5i52mOaiQywM4DA==
   dependencies:
     "@types/express" "^4.17.13"
     "@types/jsonwebtoken" "^8.5.4"
