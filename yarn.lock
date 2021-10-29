@@ -232,10 +232,10 @@ astral-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
   integrity sha512-+Ryf6g3BKoRc7jfp7ad8tM4TtMiaWvbF/1/sQcZPkkS7ag3D5nMBCe2UfOTONtAkaG0tO0ij3C5Lwmf1EiyjHg==
 
-autharmor-node-sdk@^2.0.0-alpha.29:
-  version "2.0.0-alpha.29"
-  resolved "https://registry.yarnpkg.com/autharmor-node-sdk/-/autharmor-node-sdk-2.0.0-alpha.29.tgz#5cfdd4d2b9f334b69ae13aaefee7da44a830b12d"
-  integrity sha512-vGFfENOcQPI1VWewLT5IlHDuEcPtJvF1HsEuGYSYZ8VkzUz4Ny9XvfNbHeSG0nJDdV65+MAgOvv3S+SKZ3ZoUw==
+autharmor-node-sdk@^2.0.0-alpha.30:
+  version "2.0.0-alpha.30"
+  resolved "https://registry.yarnpkg.com/autharmor-node-sdk/-/autharmor-node-sdk-2.0.0-alpha.30.tgz#f622ff7e439e89e6b420f8ed93abece1279216aa"
+  integrity sha512-9ZCYNm9fVW+oubXSI7Q42n0Y9GUpRMgrHxU/uJvt6sfddnNOHWY6t89FraFO8qFRRnCeiMnP/INE0g7bYFVPEw==
   dependencies:
     "@types/express" "^4.17.13"
     "@types/jsonwebtoken" "^8.5.4"
