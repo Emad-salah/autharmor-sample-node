@@ -16,13 +16,17 @@ const AuthArmor = new AuthArmorSDK({
   server: Server, // Enables Authentication through WebSockets
   clientId: process.env.CLIENT_ID, // AuthArmor API Client ID
   clientSecret: process.env.CLIENT_SECRET, // AuthArmor API Client Secret
-  secret: process.env.SECRET // Specify a Secret for the tokens that will be generated through the SDK
+  secret: process.env.SECRET, // Specify a Secret for the tokens that will be generated through the SDK
 });
 
 app.use(
   Cors({
-    origin: ["http://localhost:3000", "https://autharmor-demo.vercel.app"],
-    credentials: true
+    origin: [
+      "http://localhost:3000",
+      "https://autharmor-demo.vercel.app",
+      "http://localhost:44403",
+    ],
+    credentials: true,
   })
 );
 
@@ -30,9 +34,9 @@ app.use(
 app.use(
   "/auth/autharmor",
   AuthArmor.routes({
-    onAuthSuccess: data => {
+    onAuthSuccess: (data) => {
       console.log(data);
-    }
+    },
   })
 );
 
