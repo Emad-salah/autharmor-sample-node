@@ -29,6 +29,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "https://autharmor-demo.vercel.app",
+      "https://autharmor-demo-static.herokuapp.com",
       "http://localhost:44403"
     ],
     credentials: true
