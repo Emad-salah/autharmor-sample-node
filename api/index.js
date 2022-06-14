@@ -36,16 +36,6 @@ app.use(
   })
 );
 
-// Mount the SDK routes under "/auth/autharmor" (which is the default path prefix specified in the client-side SDK)
-app.use(
-  "/auth/autharmor",
-  AuthArmor.routes({
-    onAuthSuccess: data => {
-      console.log(data);
-    }
-  })
-);
-
 app.post("/enroll/webauthn/start", async (req, res) => {
   const { username, userId, timeout = 30000 } = req.body;
   console.log({
