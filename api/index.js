@@ -64,8 +64,8 @@ app.get("/me", verifyToken, async (req, res) => {
 
   res.json({
     user: {
-      nickname: req.user.nickname,
-      profileId: req.user.auth_profile_id
+      username: req.user.username,
+      user_id: req.user.user_id
     }
   });
 });
